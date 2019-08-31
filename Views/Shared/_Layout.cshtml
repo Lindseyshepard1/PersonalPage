@@ -1,0 +1,131 @@
+﻿<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>@ViewData["Title"]Personal Page</title>
+
+    <link rel="stylesheet" href="~/css/site.css"/>
+    <!-- Add social library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+
+    <style>
+        
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            border: 1px solid #e7e7e7;
+            background-color: #f3f3f3;
+        }
+        .fa:hover {
+
+    opacity: 0.7;
+}
+        li {
+            float: left;
+        }
+
+            li a {
+                display: block;
+                color: #666;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+                li a:hover:not(.active) {
+                    background-color: #ddd;
+                }
+
+                li a.active {
+                    color: white;
+                    background-color: #4CAF50;
+                }
+
+        .fa-linkedin {
+            background: #007bb5;
+            color: white;
+        }
+
+        .fa-github {
+            background: white;
+            color: black;
+        }
+    </style>
+</head>
+
+
+
+<ul class="navbar-nav" style="i">
+    <li class="nav-item">
+        <a class="nav-link text-dark" href="/"><i class="fa fa-fw fa-home"></i> Home</a>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link text-dark" href="/Home/HomePage">Accomplishments</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link text-dark" href="/Home/Resume">Resume</a>
+    </li>
+
+    <li class="=nav-item">
+        <a href="https://www.linkedin.com/in/lindsey-shepard/" class="fa fa-linkedin"></a>
+    </li>
+
+    <li class="nav-item">
+        <a href="https://github.com/lindseyshepard" class="fa fa-github"></a>
+    </li>
+
+    <li class="nav-item">
+        <form action="mailto:lindsey.shepard@outlook.com" method="post" enctype="text/plain">
+            <input type="image" img="" src="/css/Image/outlookimg.png">
+        </form>
+    </li>
+
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+<html>
+
+
+    </header>
+<div class="container">
+    <main role="main" class="pb-3">
+        @RenderBody()
+    </main>
+</div>
+
+
+<footer class="footer text-muted">
+    <style>
+        footer {
+            background: #868b8e;
+            display:block;
+            position:absolute;
+            bottom:0;
+        }
+    </style>
+    <div class="" , style="color: #ffffff">
+        2019 - Personal Page - Lindsey Shepard <a asp-area="" asp-controller="Home" asp-action="Privacy"></a>
+    </div>
+
+</footer>
+
+<script src="~/js/site.js" asp-append-version="true"></script>
+
+@RenderSection("Scripts", required: false)
+
+</html>
