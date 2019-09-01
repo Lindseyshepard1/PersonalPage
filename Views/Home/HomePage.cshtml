@@ -36,6 +36,26 @@
         body {
             background-color: #e9e9e9;
         }
+        * {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+
     </style>
 </head>
 
@@ -43,15 +63,52 @@
 <body style="
 margin-top: 0px;
 margin-left: 0px;
-margin-right: 0px:">
+margin-right: 0px;">
      
 
-    <h2><center>Accomplishments</center></h2>
+    <center><h2>Accomplishments</h2></center>
 
     <button class="collapsible">C#</button>
     <div class="content">
-        <p>List what you can do in c here</p>
-        <p>maybe touch on subjects, like arrays. This could be good pratcice to demonstare what you know for arrays</p>
+        <p>Part of learning backend was to build Console Applications. I chose the one that developmented the most over time to display how far I have come in the first 8 weeks of this course</p>
+    <p>During this project I worked with my partner (Brandon Hagerman) and these are a few snippets of our final project</p>
+    <p>I added in a few comments to clarify a few parts of the code for the reader!</p>
+    <div class="row">
+        <div class="column">
+            <img src="~/css/Image/" alt="Snow" style="width:100%">
+        </div>
+        <div class="column">
+            <img src="img_forest.jpg" alt="Forest" style="width:100%">
+        </div>
+        <div class="column">
+            <img src="img_mountains.jpg" alt="Mountains" style="width:100%">
+        </div>
+        <div class="row">
+            <div class="column">
+                <img src="img_snow.jpg" alt="Snow" style="width:100%">
+            </div>
+            <div class="column">
+                <img src="img_forest.jpg" alt="Forest" style="width:100%">
+            </div>
+            <div class="column">
+                <img src="img_mountains.jpg" alt="Mountains" style="width:100%">
+            </div>
+        </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     </div>
 
     <button class="collapsible">SQL</button>
