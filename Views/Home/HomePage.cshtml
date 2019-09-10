@@ -15,12 +15,12 @@
             cursor: pointer;
             padding: 14px;
             width: 100%;
-            margin:auto;
+            margin: auto;
             border: none;
             text-align: left;
             outline: none;
             font-size: 15px;
-            display:block;
+            display: block;
         }
 
             .active, .collapsible:hover {
@@ -33,29 +33,27 @@
             overflow: hidden;
             background-color: #dbc2fa;
         }
+
         body {
             background-color: #e9e9e9;
         }
+
         * {
-  box-sizing: border-box;
-}
+            box-sizing: border-box;
+        }
 
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
-}
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 5px;
+        }
 
-/* Clearfix (clear floats) */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-
-
-
+        /* Clearfix (clear floats) */
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
     </style>
 </head>
 
@@ -64,18 +62,66 @@
 margin-top: 0px;
 margin-left: 0px;
 margin-right: 0px;">
-     
+
 
     <center><h2>Accomplishments</h2></center>
 
     <button class="collapsible">C#</button>
     <div class="content">
         <p>Part of learning backend was to build Console Applications. I chose the one that developmented the most over time to display how far I have come in the first 8 weeks of this course</p>
+        <p>During this project I worked with my partner (Brandon Hagerman) and these are a few snippets of our final project</p>
+        <p>I added in a few comments to clarify a few parts of the code for the reader!</p>
+        <p>jhsjhsjhsjs</p>
+        <div class="column">
+
+            <img src="~/css/Image/SpaceGameFirst.PNG" width="315" height="351" style="margin:auto;">
+
+        </div>
+        <div class="column">
+            <img src="~/css/Image/SpaceGameSec.PNG" width="315" height="351" style="margin:auto;">
+        </div>
+        <div class="column">
+            <img src="~/css/Image/SpaceGameStatic.PNG" alt="StaticMethods" width="315" height="291" style="width:100%">
+        </div>
+
+    </div>
+
+    <button class="collapsible">SQL</button>
+    <div class="content">
+        <p>List what you can do in SQL here</p>
+    </div>
+    <button class="collapsible">ASP.NET</button>
+    <div class="content">
+        <p>List what you can do in asp.net here</p>
+    </div>
+
+
+    <script>
+        //I think this is js?
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                } else {
+                    content.style.display = "block";
+                }
+            });
+        }
+    </script>
+
+    <p>Part of learning backend was to build Console Applications. I chose the one that developmented the most over time to display how far I have come in the first 8 weeks of this course</p>
     <p>During this project I worked with my partner (Brandon Hagerman) and these are a few snippets of our final project</p>
     <p>I added in a few comments to clarify a few parts of the code for the reader!</p>
     <div class="row">
         <div class="column">
-            <img src="~/css/Image/" alt="Snow" style="width:100%">
+
+            <img src="~/css/Image/SpaceGameFirst.PNG" width="315" height="351" style="margin:auto;">
+    
         </div>
         <div class="column">
             <img src="img_forest.jpg" alt="Forest" style="width:100%">
@@ -94,49 +140,11 @@ margin-right: 0px;">
                 <img src="img_mountains.jpg" alt="Mountains" style="width:100%">
             </div>
         </div>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    </div>
 
-    <button class="collapsible">SQL</button>
-    <div class="content">
-        <p>List what you can do in SQL here</p>
-    </div>
-    <button class="collapsible">ASP.NET</button>
-    <div class="content">
-        <p>List what you can do in asp.net here</p>
-    </div>
-  
 
-    <script>
-        var coll = document.getElementsByClassName("collapsible");
-        var i;
 
-        for (i = 0; i < coll.length; i++) {
-            coll[i].addEventListener("click", function () {
-                this.classList.toggle("active");
-                var content = this.nextElementSibling;
-                if (content.style.display === "block") {
-                    content.style.display = "none";
-                } else {
-                    content.style.display = "block";
-                }
-            });
-        }
-    </script>
+
+
 
 
 
