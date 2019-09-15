@@ -28,8 +28,9 @@ C:\Users\linds\Desktop\My Projects for zipped files\StudyGuide\StudyGuide\obj\De
 C:\Users\linds\Desktop\My Projects for zipped files\StudyGuide\StudyGuide\obj\Debug\netcoreapp2.2\StudyGuide.dll
 C:\Users\linds\Desktop\My Projects for zipped files\StudyGuide\StudyGuide\obj\Debug\netcoreapp2.2\StudyGuide.pdb
 C:\Users\linds\Desktop\My Projects for zipped files\StudyGuide\StudyGuide\obj\Debug\netcoreapp2.2\StudyGuide.csproj.CopyComplete
-C:\Users\linds\Desktop\My Projects for zipped files\StudyGuide\StudyGuide\obj\Debug\netcoreapp2.2\Razor\Views\Home\HomePage.g.cshtml.cs
 C:\Users\linds\Desktop\My Projects for zipped files\StudyGuide\StudyGuide\obj\Debug\netcoreapp2.2\Razor\Views\Home\Resume.g.cshtml.cs
 C:\Users\linds\Desktop\My Projects for zipped files\StudyGuide\StudyGuide\bin\Debug\netcoreapp2.2\wwwroot\css\Image\linkedin.jpg
 C:\Users\linds\Desktop\My Projects for zipped files\StudyGuide\StudyGuide\obj\Debug\netcoreapp2.2\StudyGuide.Properties.Resources.resources
 C:\Users\linds\Desktop\My Projects for zipped files\StudyGuide\StudyGuide\obj\Debug\netcoreapp2.2\StudyGuide.csproj.GenerateResource.cache
+C:\Users\linds\Desktop\My Projects for zipped files\StudyGuide\StudyGuide\obj\Debug\netcoreapp2.2\Razor\Views\Home\Accomplishments.g.cshtml.cs
+C:\Users\linds\Desktop\My Projects for zipped files\StudyGuide\StudyGuide\obj\Debug\netcoreapp2.2\Razor\Views\Home\Introduction.g.cshtml.cs

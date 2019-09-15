@@ -13,16 +13,17 @@ namespace StudyGuide.Controllers
         public ViewResult Index()
         {
             return View();
+
         }
 
         public ViewResult Resume()
         {
             return View();
         }
+
+     
        
-   
-       
-        public ViewResult HomePage()
+        public ViewResult Accomplishments()
         {
             return View();
         }
