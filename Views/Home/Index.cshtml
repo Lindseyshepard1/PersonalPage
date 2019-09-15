@@ -3,7 +3,7 @@
 }
 
 <!DOCTYPE html>
-<html>
+
 <head>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,105 +11,129 @@
 
 
 
-
     <style>
-        
-
-        p {
-            text-indent: 50px;
-            text-align: justify;
-            letter-spacing: 3px;
+      
+        div.img {
+            float: left;
+            margin-right: 4px;
         }
 
-        a {
-            text-decoration: none;
-            color: #008CBA;
+        div.background {
+            background: #ffeaea;
+            border:1px;
+            margin:auto;
         }
-        body {
-            background-color: #fff0f0;
-             border: 1px solid gray;
-            padding: 8px;
+
+        div.transbox {
+            margin: 30px;
+            background-color: #ffffff;
+            border: 1px solid black;
+            opacity: 0.6;
+            filter: alpha(opacity=60); /* For IE8 and earlier */
         }
+
+            div.transbox p {
+                margin: 5%;
+                font-weight: bold;
+                color: #000000;
+            }
+
+
     </style>
-
 </head>
+
+
+
+
 
 <body>
 
-        <div style="text-align:center; font-size:35px">
-                <h2>Lindsey Shepard</h2>
-                <p><i>A Personal Page</i></p></div>
-            
-      
-    <hr />
-      <div class="container">
-        <div class="row">
-            <div class="column-33" style="text-align:center;">
-                <img src="~/css/Image/linkedin.jpg" width="315" height="351" style="margin:auto;">
-                <br />
-                <span style="font-size:20px">A young professional finding her place, <br>one concept at a time</span><br />
-            </div>
-          <div class="column-66;" style="padding-top:0; font-size:25px">
-                <div>
-                    <center>
-                        <p>
-                            Hello, world! My name is Lindsey Shepard, and this is my personal page.  On July 1, 2019 I began a new chapter<br />
-                            of my life by participating in Microsoft’s Software and Systems Academy (MSSA) for Cloud Development. This was<br />
-                            exciting and scary at the same time because I never walked down the road of software development. In January of <br />
-                            2019 I transitioned out of the United States Marine Corps, on the brink of college courses, deciding what path I<br />
-                            wanted to take my career. I came across this opportunity, MSSA, and my life changed. I have been faced with the<br />
-                            challenges of the IT world; however, I have never been happier. Time flies when you’re having fun!
-                            <br>
-                            Innovation. A word that is passed around a lot in the IT industry. What exactly is it? It is as straight <br />
 
-                            forward as the definition provides? the action or process of innovating, a new method, idea, <br />
+    <div style="text-align:center">
 
-                            product, etc. There are new ideas every day, new conversations in so many aspect of life that it <br />
+        <h2>Lindsey Shepard</h2>
+        <h5><i>A Personal Page</i></h5>
+    </div>
 
-                            cannot be limited to what we find with data. And it’s not. That is the beauty of it. Technology is not
-                            <br />
-                            limited to the IT industry. There is a form of innovation at every corner, medical achievements,
-                            <br />
-                            mentally. New ideas are being cast in retail, aviation’s, how I order my coffee. I have been asked
-                            <br />
-                            Why Tech? Why did you decide on this industry verse all the others. The reasons behind may get
-                            <br />
-                            complicated, but my answer is simple. I want to be a part of an industry that’s passion and intent is
-                            <br />
-                            to better the lives of everybody. If I can save the soccer mom an extra 5 minutes in the morning – I
+    <hr>
 
-                            <br />
-                            would collaborate and create an application, if I can help brainstorm software that can be adopted
-                            <br />
-                            into a medical facility to help the staff  complete their jobs then I succeeded. Why tech wasn’t a
-                            <br />
-                            question to make me think why do I want to do this. This question made me think where do I want
-                            <br />
-                            to start and what company has the same values in taking care of the world. <br />
-                            These ideas are ambitious for someone so new to the industry, but my fire for learning more has
-                            <br />
-                            never been so driving for me and I am absolutely addicted to the passion. I believe it is possible to
-                            <br />
-                            have an impact. I believe in such a fast-paced and developing industry everybody can add their own
-                            <br />
-                            personal innovation. I want to be surrounded by the people that ooze optimism as much as I do.
-                            <br />
-                            
-                        </p>
-                    </center>
-                </div>
-                <hr />
-                <p>
-                    <center>
+    <div.img class="column-33" style="text-align:center;">
+        <img src="/css/Image/linkedin.jpg" style="width:315px;height:351px;margin-right:15px;margin-left: 100px;">
+        <br>
+        <span style="font-size:20px;margin-left:100px;word-wrap:break-word;">A young professional finding her place, one concept at a time</span><br>
+    </div.img>
+    <br /><br />
+    <div class="background">
+        <div class="transbox" style="
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+">
 
 
-                        <img src="/css/Image/ski.jpg" style="margin:auto;width: 500px;">
-                        <br />
-                    </center>
+            <div class="column-66" style="text-align:center;word-wrap:break-word;">
+                Hello, world! My name is Lindsey Shepard, and this is my personal page.  On July 1, 2019 I began a new chapter
+                of my life by participating in Microsoft’s Software and Systems Academy (MSSA) for Cloud Development. This was
+                exciting and scary at the same time because I never walked down the road of software development. In January of
+                2019 I transitioned out of the United States Marine Corps, on the brink of college courses, deciding what path I
+                wanted to take my career. I came across this opportunity, MSSA, and my life changed. I have been faced with the
+                challenges of the IT world; however, I have never been happier. Time flies when you’re having fun!
 
-                </p>
+
+
+                Innovation. A word that is passed around a lot in the IT industry. What exactly is it? It is as straight
+
+                forward as the definition provides? the action or process of innovating, a new method, idea,
+
+                product, etc. There are new ideas every day, new conversations in so many aspect of life that it
+
+                cannot be limited to what we find with data. And it’s not. That is the beauty of it. Technology is not
+
+                limited to the IT industry. There is a form of innovation at every corner, medical achievements,
+
+                mentally. New ideas are being cast in retail, aviation’s, how I order my coffee. I have been asked
+
+                Why Tech? Why did you decide on this industry verse all the others. The reasons behind may get
+
+                complicated, but my answer is simple. I want to be a part of an industry that’s passion and intent is
+
+                to better the lives of everybody. If I can save the soccer mom an extra 5 minutes in the morning – I
+
+
+                would collaborate and create an application, if I can help brainstorm software that can be adopted
+
+                into a medical facility to help the staff  complete their jobs then I succeeded. Why tech wasn’t a
+
+                question to make me think why do I want to do this. This question made me think where do I want
+
+                to start and what company has the same values in taking care of the world.
+                These ideas are ambitious for someone so new to the industry, but my fire for learning more has
+
+                never been so driving for me and I am absolutely addicted to the passion. I believe it is possible to
+
+                have an impact. I believe in such a fast-paced and developing industry everybody can add their own
+
+                personal innovation. I want to be surrounded by the people that ooze optimism as much as I do.
             </div>
         </div>
- </div>
 
+
+
+
+
+
+
+
+        @*</div>
+            <center>
+                <div class="row ">
+
+
+
+
+                    <img src="~/css/Image/norwayplt.jpg  " style="margin:auto;width: 500px;">
+                    <img src="/css/Image/ski.jpg" style="margin:auto;width: 500px;">
+                </div>
+            </center>*@
 </body>

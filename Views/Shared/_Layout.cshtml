@@ -62,7 +62,7 @@
 
 
 
-<ul class="navbar-nav" style="i">
+<ul class="navbar-nav" style="i;border-left-width: 0px;border-right-width: 0px;border-top-width: 0px;border-bottom-width: 0px;">
     <li class="nav-item">
         <a class="nav-link text-dark" href="/"><i class="fa fa-fw fa-home"></i> Home</a>
     </li>
@@ -93,6 +93,7 @@
 
 
 
+
 <div class="container">
     <main role="main" class="pb-3">
         @RenderBody()
@@ -100,21 +101,25 @@
 </div>
 
 
-<footer class="footer text-muted">
+<footer class="footer text-muted" style="
+    left: 0px;
+">
     <style>
         footer {
             background: #868b8e;
-            display:block;
-            position:absolute;
-            bottom:0;
+            display: block;
+            position: absolute;
+            bottom: 0;
         }
     </style>
-    <div class="" , style="color: #ffffff">
-        2019 - Personal Page - Lindsey Shepard <a asp-area="" asp-controller="Home" asp-action="Privacy"></a>
+    <div class="" ,="" style="color: #ffffff">
+        <center>
+            2019 - Personal Page - Lindsey Shepard
+        </center>
+         <a href=""></a>
     </div>
 
 </footer>
-
 <script src="~/js/site.js" asp-append-version="true"></script>
 
 @RenderSection("Scripts", required: false)
