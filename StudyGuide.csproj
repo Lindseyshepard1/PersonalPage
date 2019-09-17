@@ -23,14 +23,8 @@
 
 
   <ItemGroup>
-    <Content Update="wwwroot\css\Image\C#.NET logo.png">
+    <Content Update="wwwroot\Image\linkedin.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Update="wwwroot\css\Image\linkedin.jpg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Update="wwwroot\css\Image\Network+.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
 
