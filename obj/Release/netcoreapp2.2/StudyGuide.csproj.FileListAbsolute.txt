@@ -28,9 +28,9 @@ C:\Users\linds\Desktop\My Projects for zipped files\StudyGuide\StudyGuide\obj\Re
 C:\Users\linds\Desktop\My Projects for zipped files\StudyGuide\StudyGuide\obj\Release\netcoreapp2.2\StudyGuide.pdb
 C:\Users\linds\Desktop\My Projects for zipped files\StudyGuide\StudyGuide\obj\Release\netcoreapp2.2\StudyGuide.csproj.CopyComplete
 C:\Users\linds\Desktop\My Projects for zipped files\StudyGuide\StudyGuide\obj\Release\netcoreapp2.2\StudyGuide.csprojAssemblyReference.cache
-C:\Users\linds\Desktop\My Projects for zipped files\StudyGuide\StudyGuide\bin\Release\netcoreapp2.2\wwwroot\css\Image\linkedin.jpg
 C:\Users\linds\Desktop\My Projects for zipped files\StudyGuide\StudyGuide\obj\Release\netcoreapp2.2\StudyGuide.Properties.Resources.resources
 C:\Users\linds\Desktop\My Projects for zipped files\StudyGuide\StudyGuide\obj\Release\netcoreapp2.2\StudyGuide.csproj.GenerateResource.cache
 C:\Users\linds\Desktop\My Projects for zipped files\StudyGuide\StudyGuide\obj\Release\netcoreapp2.2\Razor\Views\Home\Resume.g.cshtml.cs
 C:\Users\linds\Desktop\My Projects for zipped files\StudyGuide\StudyGuide\obj\Release\netcoreapp2.2\Razor\Views\Home\Accomplishments.g.cshtml.cs
 C:\Users\linds\Desktop\My Projects for zipped files\StudyGuide\StudyGuide\obj\Release\netcoreapp2.2\Razor\Views\Home\Introduction.g.cshtml.cs
+C:\Users\linds\Desktop\My Projects for zipped files\StudyGuide\StudyGuide\bin\Release\netcoreapp2.2\wwwroot\Image\linkedin.jpg
